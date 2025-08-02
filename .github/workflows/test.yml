@@ -3,7 +3,7 @@ name: Python package
 on:
   push:
     branches:
-      - dev/dev-clases
+      - main
 
 jobs:
   test:
