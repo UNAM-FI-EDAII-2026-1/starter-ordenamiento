@@ -8,9 +8,9 @@ Aquí debes subir **únicamente** tu archivo PDF con la solución teórica de la
 - El PDF debe tener **máximo 3 páginas**.
 - Usa una **fuente de LaTeX** bien acomodada para facilitar la lectura.
 - El documento debe contener únicamente:
-  - **P1:** Enunciado y propuesta de solución.
-  - **P2:** Enunciado y propuesta de solución.
-  - **P3:** Enunciado y propuesta de solución.
+  - **P1:** propuesta de solución.
+  - **P2:** propuesta de solución.
+  - **P3:** propuesta de solución.
 
 ## Recomendaciones
 
