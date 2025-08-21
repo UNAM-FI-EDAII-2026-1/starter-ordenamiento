@@ -1,8 +1,10 @@
 def bubble_sort(arr):
     ## codifo del bubble
+    return 
 
 def merge_sort(arr):
     ## codigo del merge sort
+    return 
 
 ## def merge(...) ## crea el merge del merge sort aqui!
 
