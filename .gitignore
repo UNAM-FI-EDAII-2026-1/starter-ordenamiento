@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+env/
+venv/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test output
+htmlcov/
+.coverage
+.cache/
+
+# Custom - No subir el archivo de ejemplo
+examples/sorting.py
