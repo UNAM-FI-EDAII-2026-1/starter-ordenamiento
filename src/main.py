@@ -1,42 +1,10 @@
 def bubble_sort(arr):
-    n = len(arr)
-    for i in range(n):
-        for j in range(0, n-i-1):
-            if arr[j] > arr[j+1]:
-                arr[j], arr[j+1] = arr[j+1], arr[j]
-    return arr
+    ## codifo del bubble
 
 def merge_sort(arr):
-    if len(arr) > 1:
-        mid = len(arr) // 2
-        L = arr[:mid]
-        R = arr[mid:]
+    ## codigo del merge sort
 
-        merge_sort(L)
-        merge_sort(R)
-
-        i = j = k = 0
-
-        while i < len(L) and j < len(R):
-            if L[i] < R[j]:
-                arr[k] = L[i]
-                i += 1
-            else:
-                arr[k] = R[j]
-                j += 1
-            k += 1
-
-        while i < len(L):
-            arr[k] = L[i]
-            i += 1
-            k += 1
-
-        while j < len(R):
-            arr[k] = R[j]
-            j += 1
-            k += 1
-
-    return arr
+## def merge(...) ## crea el merge del merge sort aqui!
 
 # Example usage (this part can be removed or commented out)
 if __name__ == "__main__":
