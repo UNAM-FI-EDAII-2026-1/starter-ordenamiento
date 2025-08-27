@@ -38,8 +38,40 @@ Para cada algoritmo, mide y compara tiempos con:
 - Datos recolectados
 - Debe venir en el reporte de no mas 5 pags, por cada pag extra les bajo puntos por hoja. aprox 1.5 por extra hoja.
 
-## Rúbrica
-- Completitud de experimentos (30%)
-- Calidad de gráficas (20%)
-- Análisis de resultados (30%)
-- Conclusiones fundamentadas (20%)
+## Experimentos Adicionales para Quick Sort y Heap Sort
+
+### 3. Análisis de Estrategias de Pivote
+Para Quick Sort, implementa y compara:
+- Pivote como último elemento
+- Pivote aleatorio
+- Pivote como mediana de tres
+- Mide tiempos para cada estrategia con diferentes tipos de entrada
+- Grafica comparando las tres estrategias
+
+### 4. Análisis de Construcción de Heap
+Para Heap Sort:
+- Mide el tiempo de construcción inicial del heap vs. tamaño
+- Compara tiempo de heapify vs. altura del árbol
+- Analiza el número de intercambios en diferentes fases
+
+### 5. Comparación de los 4 Algoritmos
+- Compara todos los algoritmos implementados
+- Usa conjuntos de datos de tamaño grande (>50000 elementos)
+- Mide:
+  * Tiempo de ejecución
+  * Número de comparaciones
+  * Número de intercambios
+  * Uso de memoria
+- Genera gráficas comparativas
+
+### 6. Análisis de Estabilidad
+- Implementa un experimento que demuestre la estabilidad/inestabilidad
+- Usa registros con claves duplicadas
+- Documenta el comportamiento de cada algoritmo
+
+## Rúbrica Final
+- Implementación correcta (20%)
+- Experimentos básicos (20%)
+- Experimentos avanzados (20%)
+- Análisis de resultados (20%)
+- Calidad del reporte (20%)
