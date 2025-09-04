@@ -1,5 +1,5 @@
 import pytest
-from src.main import bubble_sort, merge_sort, quick_sort, heap_sort
+from src.main import bubble_sort, merge_sort, quick_sort, heap_sort, counting_sort, radix_sort
 
 def test_bubble_sort():
     assert bubble_sort([5, 2, 9, 1, 5, 6]) == [1, 2, 5, 5, 6, 9]
@@ -28,3 +28,23 @@ def test_heap_sort():
     assert heap_sort([1]) == [1]
     # Test con duplicados
     assert heap_sort([4, 4, 4, 3, 3, 2, 1]) == [1, 2, 3, 3, 4, 4, 4]
+
+def test_counting_sort():
+    assert counting_sort([4, 2, 2, 8, 3, 3, 1]) == [1, 2, 2, 3, 3, 4, 8]
+    assert counting_sort([5, 2, 9, 1, 5, 6]) == [1, 2, 5, 5, 6, 9]
+    assert counting_sort([]) == []
+    assert counting_sort([1]) == [1]
+    # Test con muchos duplicados
+    assert counting_sort([1, 1, 1, 2, 2, 3, 1]) == [1, 1, 1, 1, 2, 2, 3]
+    # Test con números grandes
+    assert counting_sort([100, 50, 75, 25]) == [25, 50, 75, 100]
+
+def test_radix_sort():
+    assert radix_sort([170, 45, 75, 90, 802, 24, 2, 66]) == [2, 24, 45, 66, 75, 90, 170, 802]
+    assert radix_sort([5, 2, 9, 1, 5, 6]) == [1, 2, 5, 5, 6, 9]
+    assert radix_sort([]) == []
+    assert radix_sort([1]) == [1]
+    # Test con números de diferente longitud
+    assert radix_sort([1000, 1, 100, 10]) == [1, 10, 100, 1000]
+    # Test con duplicados
+    assert radix_sort([111, 111, 222, 333, 222]) == [111, 111, 222, 222, 333]

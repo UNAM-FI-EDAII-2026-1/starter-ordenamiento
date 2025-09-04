@@ -69,9 +69,33 @@ Para Heap Sort:
 - Usa registros con claves duplicadas
 - Documenta el comportamiento de cada algoritmo
 
+### 7. Análisis de Counting Sort
+- Compara el rendimiento con diferentes rangos de entrada:
+  * Números entre 0-10
+  * Números entre 0-100
+  * Números entre 0-1000
+  * Números entre 0-10000
+- Analiza el compromiso entre tiempo y memoria
+- Mide el impacto de la densidad de los datos
+
+### 8. Análisis de Radix Sort
+- Compara el rendimiento con diferentes bases (2, 4, 8, 10, 16)
+- Mide el impacto del número de dígitos
+- Analiza el comportamiento con:
+  * Números de longitud uniforme
+  * Números de longitud variable
+  * Diferentes distribuciones de dígitos
+
+### 9. Comparación Global
+Compara todos los algoritmos implementados (6 en total) en términos de:
+- Tiempo de ejecución vs tamaño de entrada
+- Uso de memoria
+- Estabilidad
+- Comportamiento con diferentes distribuciones de datos
+
 ## Rúbrica Final
-- Implementación correcta (20%)
-- Experimentos básicos (20%)
-- Experimentos avanzados (20%)
-- Análisis de resultados (20%)
-- Calidad del reporte (20%)
+- Implementación correcta (15%)
+- Experimentos básicos (15%)
+- Experimentos avanzados (30%)
+- Análisis de resultados (25%)
+- Calidad del reporte (15%)

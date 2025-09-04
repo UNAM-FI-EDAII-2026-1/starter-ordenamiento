@@ -65,3 +65,35 @@ a) Ordenar un archivo grande en disco con memoria RAM limitada
 b) Mantener ordenada una cola de prioridad que se actualiza frecuentemente
 c) Ordenar un log de eventos por timestamp donde muchos eventos ocurren en el mismo segundo
 d) Ordenar una lista de objetos grandes donde comparar es barato pero intercambiar es costoso
+
+## Ejercicio 9: Counting Sort y Distribución
+Para el arreglo [4, 1, 1, 3, 4, 2, 2, 1]:
+
+a) Muestra paso a paso cómo Counting Sort procesa este arreglo
+b) ¿Cuánta memoria extra se necesita si el máximo es 4? ¿Y si es 1000?
+c) ¿Por qué Counting Sort es estable? Demuestra con un ejemplo
+d) ¿Qué modificaciones necesitaría para manejar números negativos?
+
+## Ejercicio 10: Radix Sort y Sistemas Numéricos
+Para el arreglo [170, 45, 75, 90, 802, 24, 2, 66]:
+
+a) Muestra las pasadas de Radix Sort (LSD) paso a paso
+b) ¿Cuántas pasadas se necesitan? ¿Por qué?
+c) Si usáramos base 4 en lugar de base 10, ¿cuántas pasadas necesitaríamos?
+d) ¿Cómo afecta la base elegida al espacio y tiempo de ejecución?
+
+## Ejercicio 11: Comparación con Ordenamientos Basados en Comparaciones
+Analiza:
+
+a) ¿Por qué Counting Sort puede superar el límite de Ω(n log n)?
+b) ¿En qué casos Radix Sort es mejor que Quick Sort?
+c) ¿Cuál es la ventaja de Counting Sort sobre Radix Sort?
+d) Si tienes números entre 1 y n², ¿qué algoritmo elegirías y por qué?
+
+## Ejercicio 12: Aplicaciones Especializadas
+Para cada escenario, elige entre Counting Sort o Radix Sort y justifica:
+
+a) Ordenar 1 millón de enteros entre 1 y 100
+b) Ordenar códigos postales de 5 dígitos
+c) Ordenar calificaciones de estudiantes (0-100)
+d) Ordenar números de tarjetas de crédito (16 dígitos)
